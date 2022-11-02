@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+/*Ховер и Фокус эффекты*/
+.filter__button:hover,
+.filter__button:focus,
+.service__order:hover,
+.service__order:focus{
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+.header__mail:hover,
+.header__mail:focus,
+.header__tele:hover,
+.header__tele:focus,
+.menu__link:hover,
+.menu__link:focus{
+    color: #2196F3;
+}
+.footer__location:hover, 
+.footer__location:focus,
+.footer__mail:hover,
+.footer__mail:focus,
+.footer__tele:hover,
+.footer__tele:focus{
+    color: #FFFFFF;
+
+}
+/* Шрифты */
+.footer__location{
+    font-style: normal;
+}
+body{
+    font-family: 'Roboto';
+    color: #212121;
+}
+.header__logo,
+.footer__logo{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+
+}
+.menu__link,
+.header__mail,
+.header__tele,
+.title__quality,
+.text__quality,
+.footer__location,
+.footer__mail,
+.footer__tele{
+    font-size: 14px;
+
+}
+.menu__link,
+.header__mail,
+.header__tele{
+    color: #212121;
+    line-height: 1.11;
+}
+.menu__link,
+.header__mail,
+.header__tele,
+.name__worker{
+    font-weight: 500;
+
+}
+.title__quality{
+    font-weight: 700;
+}
+.hero__title{
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+}
+.service__order,
+.name__worker,
+.job__name{
+    font-size: 16px;
+}
+.service__order{
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Roboto';
+    cursor: pointer;
+    line-height: 1.87;
+
+}
+.text__quality,
+.footer__location,
+.footer__mail,
+.footer__tele{
+    line-height: 1.71;
+}
+
+.service__case,
+.our__team{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+}
+.job__name,
+.name__worker{
+    line-height: 1.16;
+}
+.filter__button{
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Roboto';
+    cursor: pointer;
+    line-height: 1.62;
+}
+.name__company{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+.type__job{
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+/* Цвет шрифтов */
+.header__tele,
+.text__quality,
+.job__name,
+.header__mail{
+    color: #757575;
+}
+.footer__location,
+.footer__mail,
+.footer__tele{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__logo{
+    color: rgba(255, 255, 255, 1);
+}
+.header__logo{
+    color: rgba(0, 0, 0, 1);
+}
+.marker{
+    color: #2196F3;
+}
+.hero__title{
+    color: #FFFFFF;
+}
+.filter__button{
+    color: #212121;
+    
+
+}
+.service__order{
+    color: #212121;
+}
+.type__job{
+    color: #757575;
+}
+.hero__section{
+    background: #2F303A;
+}
+.footer{
+    background: #2F303A;
+}
