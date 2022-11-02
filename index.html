@@ -9,87 +9,158 @@
 </head>
 <body>
     <header>
-        <nav>
+        <div class="container main__nav">
+        <nav class="main__nav">
             <a href="" class="header__logo"><span class="marker">Web</span>Studio</a>
-            <ul>
-                <li><a href="" class="menu__link">Студия</a></li>
-                <li><a href="portfolio.html" class="menu__link">Портфолио</a></li>
-                <li><a href="" class="menu__link">Контакты</a></li>
+            <ul class="site__nav">
+                <li class="item"><a href="" class="menu__link current">Студия</a></li>
+                <li class="item"><a href="portfolio.html" class="menu__link">Портфолио</a></li>
+                <li class="item"><a href="" class="menu__link">Контакты</a></li>
             </ul>
         </nav>
-        <ul>
-            <li><a href="mailto:info@devstudio.com" class="header__mail">info@devstudio.com</a></li>
-            <li><a href="tel:+38 096 111 11 11" class="header__tele">+38 096 111 11 11</a></li>
+        <ul class="auth__nav">
+            <li class="item"><a href="mailto:info@devstudio.com" class="header__mail">
+                <img src="images/mail.svg" alt="mail" width="16">
+                <p>info@devstudio.com</p>
+            </a></li>
+            <li class="item"><a href="tel:+38 096 111 11 11" class="header__tele">
+                <img src="images/contact.svg" alt="contactnumber" width="10">
+                <p>+38 096 111 11 11</p>
+            </a></li>
         </ul>
+    </div>
+   
     </header>
     <main>
         <section class="hero__section">
+            <div class="hero__block">
             <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
             <button class="service__order">Заказать услугу</button>
+            </div>
         </section>
-        <section>
+            <div class="container quality">
             <h2 class="best__quality">Лучшие качества</h2>
-            <ul>
-                <li>
+            <ul class="quality__list">
+                <li class="item">
+                    <img src="images/antenna 1.svg" alt="antenna" width="70">
                     <h3 class="title__quality">Внимание к деталям</h3>
                     <p class="text__quality">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
-                <li>
+                <li class="item">
+                    <img src="images/clock 1.svg" alt="clock" width="70">
                     <h3 class="title__quality">Пунктуальность</h3>
                     <p class="text__quality">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
-                <li>
+                <li class="item">
+                    <img src="images/diagram 1.svg" alt="diagram" width="70">
                     <h3 class="title__quality">Планирование</h3>
                     <p class="text__quality">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
-                <li>
+                <li class="item">
+                    <img src="images/astronaut 1.svg" alt="astronaut" width="70">
                     <h3 class="title__quality">Современные технологии</h3>
                     <p class="text__quality">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
+            </div>
         </section>
-        <section>
+        <section class="service__section">
+            <div class="container service">
             <h2 class="service__case">Чем мы занимаемся</h2>
-            <ul>
-                <li><img src="images/first__image.jpg" alt="Web developer" width="370"></li>
-                <li><img src="images/secound__image.jpg" alt="UX designer" width="370"></li>
-                <li><img src="images/third__image.jpg" alt="UI designer" width="370"></li>
+            <ul class="service__list">
+                <li class="item"><img src="images/first__image.jpg" alt="Web developer" width="370"></li>
+                <li class="item"><img src="images/secound__image.jpg" alt="UX designer" width="370"></li>
+                <li class="item"><img src="images/third__image.jpg" alt="UI designer" width="370"></li>
             </ul>
+            </div>
         </section>
-        <section>
+        <section class="team__section">
+            <div class="container team">
             <h2 class="our__team">Наша команда</h2>
-            <ul>
-                <li>
+            <ul class="team__list">
+                <li class="item">
                     <img src="images/first__company__member.jpg" alt="Product Designer" width="270">
                     <h3 class="name__worker">Игорь Демьяненко</h3>
                     <p class="job__name">Product Designer</p>
-                </li>
-                <li>                  
+                    <ul class="social__media">
+                        <li><a href=""><img src="images/instagram 2.svg" alt="instagram" width="20"></a></li>
+                        <li><a href=""><img src="images/twitter 1.svg" alt="twitter"  width="20"></a></li>
+                        <li><a href=""><img src="images/facebook 1.svg" alt="facebook"  width="20"></a></li>
+                        <li><a href=""><img src="images/linkedin 1.svg" alt="linkedin"  width="20"></a></li>
+                    </ul>
+                </li class="item">
+                <li class="item">                  
                     <img src="images/secound__company__member.jpg" alt="Frontend Developer" width="270">                      
                     <h3 class="name__worker">Ольга Репина</h3>
-                    <p class="job__name"Frontend Developer</p>                     
+                    <p class="job__name">Frontend Developer</p> 
+                    <ul class="social__media">
+                        <li><a href=""><img src="images/instagram 2.svg" alt="instagram" width="20"></a></li>
+                        <li><a href=""><img src="images/twitter 1.svg" alt="twitter"  width="20"></a></li>
+                        <li><a href=""><img src="images/facebook 1.svg" alt="facebook"  width="20"></a></li>
+                        <li><a href=""><img src="images/linkedin 1.svg" alt="linkedin"  width="20"></a></li>
+                    </ul>              
                 </li>
-                <li>
+                <li class="item">
                     <img src="images/third__company__member.jpg" alt="Marketing" width="270">
                     <h3 class="name__worker">Николай Тарасов</h3>
                     <p class="job__name">Marketing</p>
+                    <ul class="social__media">
+                        <li><a href=""><img src="images/instagram 2.svg" alt="instagram" width="20"></a></li>
+                        <li><a href=""><img src="images/twitter 1.svg" alt="twitter"  width="20"></a></li>
+                        <li><a href=""><img src="images/facebook 1.svg" alt="facebook"  width="20"></a></li>
+                        <li><a href=""><img src="images/linkedin 1.svg" alt="linkedin"  width="20"></a></li>
+                    </ul>
                 </li>
-                <li>
+                <li class="item">
                     <img src="images/fourth__company__member.jpg" alt="UI Designer" width="270">
                     <h3 class="name__worker">Михаил Ермаков</h3>
                     <p class="job__name">UI Designer</p>
+                    <ul class="social__media">
+                        <li><a href=""><img src="images/instagram 2.svg" alt="instagram" width="20"></a></li>
+                        <li><a href=""><img src="images/twitter 1.svg" alt="twitter"  width="20"></a></li>
+                        <li><a href=""><img src="images/facebook 1.svg" alt="facebook"  width="20"></a></li>
+                        <li><a href=""><img src="images/linkedin 1.svg" alt="linkedin"  width="20"></a></li>
+                    </ul>
                    
                </li>
             </ul>
+            </div>
+        </section>
+        <section class="customers__section">
+            <div class="container customers">
+            <h2 class="regular__customers">Постоянные клиенты</h2>
+            <ul class="customers__list">
+                <li class="item"><a href=""><img src="images/ya&co.svg" alt="ya&co" width="106"></a></li>
+                <li class="item"><a href=""><img src="images/company.svg" alt="company" width="106"></a></li>
+                <li class="item"><a href=""><img src="images/company2.svg" alt="company2" width="106"></a></li>
+                <li class="item"><a href=""><img src="images/foster.svg" alt="foster" width="106"></a></li>
+                <li class="item"><a href=""><img src="images/brand.svg" alt="brand" width="106"></a></li>
+                <li class="item"><a href=""><img src="images/companytagline.svg" alt="companytagline" width="106"></a></li>
+            </ul>
+        </div>
         </section>
     </main>
     <footer class="footer">
+        <div class="container footer__container">
+        <div class="footer__contacts">
         <a href="" class="footer__logo"><span class="marker">Web</span>Studio</a>
-        <ul>
-            <li><address><a href="https://goo.gl/maps/hNXAhR8YrKk3fjy19" class="footer__location">г. Киев, пр-т Леси Украинки, 26</a></address></li>
-            <li><a href="mailto:info@example.com" class="footer__mail">info@example.com</a></li>
-            <li><a href="tel:+38 099 111 11 11" class="footer__tele">+38 099 111 11 11</a></li>
+        <ul class="footer__contact-list">
+            <li class="item"><address><a href="https://goo.gl/maps/hNXAhR8YrKk3fjy19" class="footer__location">г. Киев, пр-т Леси Украинки, 26</a></address></li>
+            <li class="item"><a href="mailto:info@example.com" class="footer__mail">info@example.com</a></li>
+            <li class="item"><a href="tel:+38 099 111 11 11" class="footer__tele">+38 099 111 11 11</a></li>
         </ul>
+        </div>
+        <div class="footer__social">
+            <p class="join__title">присоединяйтесь</p>
+            <ul class="footer__social-list">
+                <li class="item"><a href=""><img src="images/instagram 2.svg" alt="instagram"  width="20"></a></li>
+                <li class="item"><a href=""><img src="images/twitter 1.svg" alt="twitter"  width="20"></a></li>
+                <li class="item"><a href=""><img src="images/facebook 1.svg" alt="facebook"  width="20"></a></li>
+                <li class="item"><a href=""><img src="images/linkedin 1.svg" alt="linkedin" width="20"></a></li>
+            </ul>
+        </div>
+
+        </div>
         
     </footer>
     
