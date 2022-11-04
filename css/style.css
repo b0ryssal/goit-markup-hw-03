@@ -115,11 +115,13 @@ body{
     font-family: 'Roboto';
     cursor: pointer;
     line-height: 1.62;
+    letter-spacing: 0.03em;
 }
 .name__company{
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    color: #212121;
 }
 .type__job{
     font-size: 16px;
@@ -169,7 +171,7 @@ body{
 
 
 .container{
-    max-width: 1200px;
+    max-width: 1170px;
     margin: 0 auto;
     
     
@@ -201,14 +203,21 @@ a{
 .current{
     color: #2196F3;
 }
-.main__nav{
+.nav{
     display: flex;
     align-items: center;
+    
+}
+.main__nav{
     padding: 0px 15px;
+    display: flex;
+    align-items: center;
 }
 .auth__nav{
     margin-left: auto;
 }
+
+
 .site__nav .menu__link{
     display: block;
     padding-top: 32px;
@@ -249,12 +258,7 @@ h1{
     margin-top: 30px;
     
 }
-.quality,
-.service,
-.team,
-.customers{
-    max-width: 1170px;
-}
+
 .best__quality{
     display: none;
 }
@@ -280,12 +284,11 @@ h1{
 .title__quality{
     margin: 30px 0 10px 0;
 }
-h2{
-    text-align: center;
-}
+
 
 .service__case{
     margin-bottom: 50px;
+    text-align: center;
 }
 .service__list{
     display: flex;
@@ -305,6 +308,7 @@ h2{
 }
 .our__team{
     margin-bottom: 50px;
+    text-align: center;
 }
 .team__list{
     display: flex;
@@ -395,6 +399,7 @@ h2{
 }
 .regular__customers{
     margin-bottom: 50px;
+    text-align: center;
    
 }
 .footer__container{
@@ -446,4 +451,56 @@ h2{
 }
 .footer__social-list .item+.item{
     margin-left: 10px;
+}
+.port__title{
+    display: none;
+}
+.portfolio__section{
+    padding: 94px 0;
+}
+.filter__list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.filter__list .item + .item{
+    margin-left: 8px;
+}
+.filter__list button{
+    padding: 6px 22px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: 0;
+}
+.cart__list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -37px;
+    margin-top: -37px;
+    list-style: none;
+    
+
+    
+    
+}
+.cart__list .item{
+    margin-left: 30px;
+    margin-top: 30px;
+    flex-basis: calc(100%/3-37px);
+    background: #FFFFFF;
+    
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+.group__text{
+    padding: 20px 24px;
+}
+.name__company{
+    margin-bottom: 4px;
+}
+
+.cart__list .item:hover{
+    
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }

@@ -9,90 +9,147 @@
 </head>
 <body>
     <header>
-        <nav>
+        <div class="container main__nav">
+        <nav class="nav">
             <a href="" class="header__logo"><span class="marker">Web</span>Studio</a>
-            <ul>
-                <li><a href="index.html" class="menu__link">Студия</a></li>
-                <li><a href="\" class="menu__link">Портфолио</a></li>
-                <li><a href="" class="menu__link">Контакты</a></li>
+            <ul class="site__nav">
+                <li class="item"><a href="index.html" class="menu__link">Студия</a></li>
+                <li class="item"><a href="portfolio.html" class="menu__link current" >Портфолио</a></li>
+                <li class="item"><a href="" class="menu__link">Контакты</a></li>
             </ul>
         </nav>
-        <ul>
-            <li><a href="mailto:info@devstudio.com" class="header__mail">info@devstudio.com</a></li>
-            <li><a href="tel:+38 096 111 11 11" class="header__tele">+38 096 111 11 11</a></li>
+        <ul class="auth__nav">
+            <li class="item"><a href="mailto:info@devstudio.com" class="header__mail">
+                <img src="images/mail.svg" alt="mail" width="16">
+                <p>info@devstudio.com</p>
+            </a></li>
+            <li class="item"><a href="tel:+38 096 111 11 11" class="header__tele">
+                <img src="images/contact.svg" alt="contactnumber" width="10">
+                <p>+38 096 111 11 11</p>
+            </a></li>
         </ul>
+    </div>
+   
     </header>
     <main>
-        <section>
-            <h1 class="hero__title">Портфолио</h1>
-            <ul>
-                <li><button type="button" class="filter__button">Все</button></li>
-                <li><button type="button" class="filter__button">Веб-сайты</button></li>
-                <li><button type="button" class="filter__button">Приложения</button></li>
-                <li><button type="button" class="filter__button">Дизайн</button></li>
-                <li><button type="button" class="filter__button">Маркетинг</button></li>
+        <section class="portfolio__section">
+            <div class="container">
+            <h1 class="port__title">Портфолио</h1>
+            <ul class="filter__list">
+                <li class="item"><button type="button" class="filter__button current__filter">Все</button></li>
+                <li class="item"><button type="button" class="filter__button">Веб-сайты</button></li>
+                <li class="item"><button type="button" class="filter__button">Приложения</button></li>
+                <li class="item"><button type="button" class="filter__button">Дизайн</button></li>
+                <li class="item"><button type="button" class="filter__button">Маркетинг</button></li>
             </ul>
-            <ul>
-                <li>
+            <ul class="cart__list">
+                <li class="item"><a href="">
                     <img src="images/Технокряк.jpg" alt="Технокряк" width="370">
-                    <h2 class="name__company">Технокряк</h2>
+                    <div class="group__text"><h2 class="name__company">Технокряк</h2>
                     <p class="type__job">Дизайн</p>
+                    </div>
+                </a>
                 </li>
-                <li>
+                <li class="item"><a href="">
                     <img src="images/Постер New Orlean vs Golden Star.jpg" alt="Постер" width="370">
+                    <div class="group__text">
                     <h2 class="name__company">Постер New Orlean vs Golden Star</h2>
                     <p class="type__job">Веб-сайт</p>
+                    </div>
+                    </a>
                 </li>
-                <li>
+                <li class="item">
+                    <a href="">
                     <img src="images/Ресторан Seafood.jpg" alt="Ресторан" width="370">
+                    <div class="group__text">
                     <h2 class="name__company">Ресторан Seafood</h2>
                     <p class="type__job">Приложение</p>
+                    </div>
+                    </a>
                 </li>
-                <li>
+                <li class="item">
+                    <a href="">
                     <img src="images/Проект Prime.jpg" alt="Prime" width="370">
+                    <div class="group__text">
                     <h2 class="name__company">Проект Prime</h2>
                     <p class="type__job">Маркетинг</p>
+                    </div>
+                    </a>
                 </li>
-                <li>
+                <li class="item">
+                    <a href="">
                     <img src="images/Проект Boxes.jpg" alt="Boxes" width="370">
+                    <div class="group__text">
                     <h2 class="name__company">Проект Boxes</h2>
                     <p class="type__job">Приложение</p>
+                    </div>
+                    </a>
                 </li>
-                <li>
+                <li class="item">
+                    <a href="">
                     <img src="images/Inspiration has no Borders.jpg" alt="Inspiration" width="370">
+                    <div class="group__text">
                     <h2 class="name__company">Inspiration has no Borders</h2>
                     <p class="type__job">Веб-сайт</p>
+                    </div>
+                    </a>
                 </li>
-                <li>
+                <li class="item">
+                    <a href="">
+                    
                     <img src="images/Издание Limited Edition.jpg" alt="Limited" width="370">
+                    <div class="group__text">
                     <h2 class="name__company">Издание Limited Edition</h2>
                     <p class="type__job">Дизайн</p>
+                    </div>
+                    </a>
                 </li>
-                <li>
+                <li class="item">
+                    <a href="">
                     <img src="images/Проект LAB.jpg" alt="LAB" width="370">
+                    <div class="group__text">
                     <h2 class="name__company">Проект LAB</h2>
                     <p class="type__job">Маркетинг</p>
+                    </div>
+                    </a>
                 </li>
-                <li>
+                <li class="item">
+                    <a href="">
                     <img src="images/Growing Business.jpg" alt="Business" width="370">
+                    <div class="group__text">
                     <h2 class="name__company">Growing Business</h2>
                     <p class="type__job">Приложение</p>
+                    </div>
+                    </a>
                 </li>
                 
                 
             </ul>
+        </div>
         </section>
     </main>
     <footer class="footer">
+        <div class="container footer__container">
+        <div class="footer__contacts">
         <a href="" class="footer__logo"><span class="marker">Web</span>Studio</a>
-        <ul>
-            <li>
-                <address><a href="https://goo.gl/maps/hNXAhR8YrKk3fjy19" class="footer__location">г. Киев, пр-т Леси Украинки, 26</a></address>
-            </li>
-            <li><a href="mailto:info@example.com" class="footer__mail">info@example.com</a></li>
-            <li><a href="tel:+38 099 111 11 11" class="footer__tele">+38 099 111 11 11</a></li>
+        <ul class="footer__contact-list">
+            <li class="item"><address><a href="https://goo.gl/maps/hNXAhR8YrKk3fjy19" class="footer__location">г. Киев, пр-т Леси Украинки, 26</a></address></li>
+            <li class="item"><a href="mailto:info@example.com" class="footer__mail">info@example.com</a></li>
+            <li class="item"><a href="tel:+38 099 111 11 11" class="footer__tele">+38 099 111 11 11</a></li>
         </ul>
-    
+        </div>
+        <div class="footer__social">
+            <p class="join__title">присоединяйтесь</p>
+            <ul class="footer__social-list">
+                <li class="item"><a href=""><img src="images/instagram 2.svg" alt="instagram"  width="20"></a></li>
+                <li class="item"><a href=""><img src="images/twitter 1.svg" alt="twitter"  width="20"></a></li>
+                <li class="item"><a href=""><img src="images/facebook 1.svg" alt="facebook"  width="20"></a></li>
+                <li class="item"><a href=""><img src="images/linkedin 1.svg" alt="linkedin" width="20"></a></li>
+            </ul>
+        </div>
+
+        </div>
+        
     </footer>
     
 </body>
